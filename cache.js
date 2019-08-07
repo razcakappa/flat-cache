@@ -96,7 +96,6 @@ var cache = {
         keys.push( this._persisted[ key ] );
         this._visited[ key ] = true;
       }
-    console.log ( ">>>>>>>>>>>>>>>>>>>>>>>>>>>>File: ", this._pathToFile )
     return keys
   },
 
@@ -107,7 +106,6 @@ var cache = {
         keys.push( key );
         this._visited[ key ] = true;
       }
-    console.log ( ">>>>>>>>>>>>>>>>>>>>>>>>>>>>File: ", this._pathToFile )
     return keys
   },
   /**
